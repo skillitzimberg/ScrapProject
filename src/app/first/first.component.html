@@ -1,0 +1,14 @@
+<h2>First Component</h2>
+<p>First is a component. There is a route defined for it in app.routing.ts.</p>
+
+<p>When a user clicks on the "First" link the component is output to the <code>router-outlet</code> in the AppComponent.</p>
+
+<p>When a user clicks on the "First" link the application requests navigation to the path /first, the router activates an instance of FirstComponent, displays its view, and updates the browser's address location and history with the URL for that path.</p>
+
+<p>I don't know yet if this makes it a child or a sibling of AppComponent. It has been imported to app.component.ts.</p>
+
+<p>From further reading, it looks like the FirstComponent is considered a sibling element to the RouterOutlet that is in the host component's template, AppComponent in this case.</p>
+
+<app-second></app-second>
+
+<app-third></app-third>

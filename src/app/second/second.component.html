@@ -1,0 +1,13 @@
+<h2>SecondComponent</h2>
+<p>Second has a route defined for it in app.routing.ts which will output to the <code>router-outlet</code> in the AppComponent.</p>
+
+<p>It also has its selector tag, <code>app-second</code> in the FirstComponent.</p>
+
+<p>When a user clicks on the First link the browser's location URL changes to match the path segment <code>/start</code> and SecondComponent view will appear with the FirstComponent. This is being delivered through the <code>app-second</code> selector.</p>
+
+<p>However, if a user clicks the Second link, the browser the browser's location URL changes to match the path segment <code>/second</code> and only the SecondComponent will show. This is being delivered through the <code>router-outlet</code> selector.</p>
+
+<p>This link will not work: <a routerLink="second/third">Third</a>.</p>
+<p>Althought the path "second/third" has been defined, when used in this context - it is being shown on both the "First" and "Second" views - in the "First" view the path that gets tried is "first/second/third"; from the "Second" view it's "second/second/third".</p>
+
+<router-outlet></router-outlet>

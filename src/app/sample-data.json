@@ -1,0 +1,28 @@
+{
+  "widgets": [
+    {
+      "name": "Thing One",
+      "size": "l",
+      "price": 10,
+      "qty": 25
+    },
+    {
+      "name": "Thing Two",
+      "size": "s",
+      "price": 33,
+      "qty": 12
+    },
+    {
+      "name": "Thing Three",
+      "size": "xxl",
+      "price": 12,
+      "qty": 31
+    },
+    {
+      "name": "Thing Four",
+      "size": "m",
+      "price": 15,
+      "qty": 4
+    }
+  ]
+}
